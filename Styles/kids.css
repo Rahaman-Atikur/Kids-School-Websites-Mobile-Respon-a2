@@ -6,23 +6,52 @@
     font-weight: <weight>;
     font-style: normal;
   }
-  .nav-bar{
+  .navigation{
     display: flex;
-   justify-content:space-evenly;
+    justify-content: space-between;
+    align-items: center;
     margin-left: 140px;
     margin-right: 140px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    align-items: center;
-    gap: 10px;
   }
-  .anchor-elements{
-    text-decoration: none;
-  }
-  .elements{
-    text-decoration: none;
-    gap: 20px;
-  }
-  .nav-first{
+  .navigation .logo{
     display: flex;
+  }
+  .navigation .anchor{
+    display: flex;
+    gap: 20px;
+    
+  }
+  .navigation .anchor .an{
+    text-decoration: none;
+  }
+  .home{
+    color: rgba(254, 163, 1, 1);
+    font-size: medium;
+    font-weight: 20px;
+  }
+  .About{
+    color: rgba(1, 172, 253, 1);
+    font-size: medium;
+    font-weight: 20px;
+  }
+  .Facilities{
+    color: #05D4DF;
+    font-size: medium;
+    font-weight: 20px;
+  }
+  .Admission{
+    color: #5D58EF;
+    font-size: medium;
+    font-weight: 20px;
+  }
+  .btn{
+    width: 197px;
+    height: 50px;
+    background-color: rgba(254, 163, 1, 1);
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
   }
