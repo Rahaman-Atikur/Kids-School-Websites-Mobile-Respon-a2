@@ -6,6 +6,23 @@
     font-weight: <weight>;
     font-style: normal;
   }
-  h1{
-    background-color: blue;
+  .nav-bar{
+    display: flex;
+   justify-content:space-evenly;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 10px;
+  }
+  .anchor-elements{
+    text-decoration: none;
+  }
+  .elements{
+    text-decoration: none;
+    gap: 20px;
+  }
+  .nav-first{
+    display: flex;
   }
