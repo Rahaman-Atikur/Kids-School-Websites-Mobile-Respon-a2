@@ -55,5 +55,27 @@
     font-weight: 400;
     font-size: 20px;
   }
+  .menu-btn{
+    display: none;
+  }
   /* End of Navigation Web */
   /* Starting Mobile Responsive for navigation bar */
+  @media screen and (max-width:576px){
+    .navigation .anchor {
+      display: none;
+    }
+    .btn{
+      display: none;
+    }
+    h2{
+      display: none;
+    }
+    .menu-btn{
+      display: block;
+    }
+   
+    
+  }
+
+
+                        /* Navigation Bar 100% Complete */
