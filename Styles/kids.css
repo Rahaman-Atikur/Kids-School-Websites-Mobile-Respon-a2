@@ -78,4 +78,41 @@
   }
 
 
-                        /* Navigation Bar 100% Complete */
+  /* Navigation Bar 100% Complete */
+  .firstpage{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    
+  }
+  .firstpage .content>h2{
+    font-size: 56px;
+    font-weight: bold;
+  }
+  .empowering{
+    color: rgba(254, 163, 1, 1);
+  }
+  .toward{
+    color: rgba(1, 172, 253, 1);
+  }
+  .btn-enroll{
+    width: 197px;
+    height: 50px;
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  /* First page Mobile Responsive */
+  @media screen and (max-width:576px){
+    .firstpage{
+      flex-direction: column-reverse;
+      margin: 0 auto;
+
+    }
+    
+  }
