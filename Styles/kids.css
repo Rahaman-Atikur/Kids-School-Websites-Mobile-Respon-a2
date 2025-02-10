@@ -111,8 +111,118 @@
   @media screen and (max-width:576px){
     .firstpage{
       flex-direction: column-reverse;
-      margin: 0 auto;
-
     }
-    
   }
+
+
+
+  /* Starting Second page */
+  .secondPage{
+    background-image: url(../assets/bg.png);
+  }
+  .secondPageHeading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 46px;
+    padding-bottom: 80px;
+  }
+  .cardOne{
+    width: 370px;
+    height: 476px;
+    background-color: #DEF5FF;
+  }
+  .cardTwo{
+    width: 370px;
+    height: 476px;
+    background-color: #FFF4DC;
+  }
+  .cardThree{
+    width: 370px;
+    height: 476px;
+    background-color: #F2E8FF;
+  }
+  .threeCard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    box-shadow: slategrey;
+  }
+  .cardOne img{
+    padding-left: 115px;
+    padding-right: 115px;
+    padding-top: 52px;
+  }
+  .cardOne h4{
+    padding-left: 78px;
+    padding-right: 78px;
+  }
+  .cardOne p{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .cardOne button{
+    padding-left: 132px;
+    padding-right: 132px;
+    border: none;
+    color: #05D4DF;
+  }
+
+
+
+  /* Second card */
+
+  .cardTwo img{
+    padding-left: 115px;
+    padding-right: 115px;
+    padding-top: 52px;
+  }
+  .cardTwo h4{
+    padding-left: 78px;
+    padding-right: 78px;
+  }
+  .cardTwo p{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .cardTwo button{
+    padding-left: 132px;
+    padding-right: 132px;
+    border: none;
+    color: yellowgreen;
+  }
+
+  .cardThree img{
+    padding-left: 115px;
+    padding-right: 115px;
+    padding-top: 52px;
+  }
+  .cardThree h4{
+    padding-left: 78px;
+    padding-right: 78px;
+  }
+  .cardThree p{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .cardThree button{
+    padding-left: 132px;
+    padding-right: 132px;
+    border: none;
+    color: violet;
+  }
+/* Second page Responsive */
+@media screen and (max-width:576px) {
+  .threeCard{
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 50px;
+    gap: 50px;
+  }
+  .secondPageHeading{
+    margin-top: 20px;
+  }
+  
+}
+
+
+  
+  
