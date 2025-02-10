@@ -282,6 +282,35 @@
     margin-left: 50px;
   }
 }
+footer{
+  background-color: #01ACFD;
+}
+
+.footer{
+  
+  display: flex;
+}
+.parentOfFirstSecond{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  color: #FFFFFF;
+  gap: 89px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.parentOfFirstSecond a{
+  text-decoration: none;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #FFFFFF;
+}
+@media screen and (max-width:576px){
+  .parentOfFirstSecond{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
 
   
   
