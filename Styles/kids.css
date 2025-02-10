@@ -220,9 +220,68 @@
   .secondPageHeading{
     margin-top: 20px;
   }
-  
 }
 
+/* Start Third page */
+.thirdPageHeading{
+  text-align: center;
+  font-weight: bold;
+  font-size: 46px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.thirdPage{
+  background-image: url(../assets/bg.png);
+}
+.thirdPageAllPicture{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.thirdPageAllPicture .fourPicture{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+}
+.bigPicture img{
+  width: 540px;
+  height: 337px;
+  border-radius: 10px;
+  visibility: visible;
+}
+.bigPicture h3{
+  font-weight: bold;
+  font-size: 24px;
+}
+.thirdPage{
+  margin-left: 80px;
+}
+.fourPicture img{
+  border-radius: 10px;
+}
+.thirdPage button{
+  width: 197px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  margin-left:622px;
+  margin-right:622px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+/* Third page Responsive */
+@media screen and (max-width:576px) {
+  .thirdPageAllPicture .bigPicture{
+    display: none;
+  }
+  .thirdPageAllPicture .fourPicture{
+    grid-template-columns: repeat(1,4fr);
+    margin-left: 50px;
+  }
+}
 
   
   
